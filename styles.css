@@ -1,0 +1,51 @@
+h1 {
+
+    font-family: Karantina, system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: Alfa Slab One, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 100px;
+  color:#fff;
+}
+
+body {
+    background-image:url(../images/pawel-czerwinski-S5iAZrTM3Lg-unsplash.jpg);
+}
+
+input {
+    padding: 15px;
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+}
+
+div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button { 
+    position: absolute!important;
+    left: 35%;
+}
+
+button2 {
+    position: fixed; 
+    bottom: 10px;    
+    left: 10px;     
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white;   
+    border: none;    
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
